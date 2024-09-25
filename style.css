@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: blanchedalmond;
+    color: rgb(81, 50, 50);
+margin: 25px 25px 25px 25px;
+}
+
+h1{
+    text-align: center;
+font-style: normal ;
+color:black;
+font-size: 70pt;
+outline: auto;
+outline-color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 40pt;
+    font-style: italic;
+    color: rgb(59, 47, 47);
+
+}
+
+h3{
+    text-align: left;
+    font-style: oblique;
+    font-size: 20pt;
+    color: grey;
+}
+
+p,br{
+    font-style: inherit;
+    font-size: 10pt;
+    color: rgb(0, 136, 255);
+}
+
+a:link,a:visited{
+    color: blue;
+    font: bold;
+}
+
+a:hover{
+    font-size: larger;
+    font-style: italic;
+    color: black ;
+}
+
+a:active{
+    color: hotpink;
+    font-size: larger;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+table,tr,td{
+    border: 1px solid black;
+}
